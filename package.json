@@ -1,0 +1,27 @@
+{
+  "name": "kiwi-project",
+  "version": "1.0.0",
+  "description": "Task from Kiwi",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "kiwi",
+    "task",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Natal",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "cypress-xpath": "^1.6.0",
+    "prettier": "^2.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
